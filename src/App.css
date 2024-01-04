@@ -11,3 +11,7 @@
 body {
   font-family: 7host, Tahoma;
 }
+
+#offers {
+  background: linear-gradient(45deg, rgba(183,152,91,0.5) 0%,rgba(183,152,91,1) 100%) ;
+}

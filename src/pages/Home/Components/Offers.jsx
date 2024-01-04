@@ -21,7 +21,7 @@ function Offers() {
     slidersNum = 4
   }
   return (
-    <section className="h-fit pb-7 my-4 bg-yellow-500 items-center">
+    <section id="offers" className="h-fit pb-7 my-4 items-center">
       <p className="text-end py-4 text-xl font-bold pe-4 text-white">پیشنهادات ویژه</p>
       <Swiper border-2 border-gray-600
         slidesPerView={slidersNum}

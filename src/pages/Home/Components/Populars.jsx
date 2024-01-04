@@ -22,8 +22,8 @@ function Populars() {
   }
   return (
     <section className="h-fit pb-7 my-4 bg-gray-50 items-center">
-      <p className="text-end py-4 text-xl font-bold pe-4 text-yellow-500">
-        بروزترین ها
+      <p className="text-end py-4 text-xl font-bold pe-4 text-[#B7985B]">
+        پرطرفدارترین ها
       </p>
       <Swiper
         slidesPerView={slidersNum}

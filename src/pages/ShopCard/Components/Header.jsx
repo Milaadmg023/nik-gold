@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react'
 
 function Header() {
   return (
     <>
-      <div
+          <div
         id="call"
-        className="flex justify-between bg-[#B7985B] items-center px-2 py-3"
+        className="flex justify-between bg-yellow-600 items-center px-2 py-3"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -21,16 +21,15 @@ function Header() {
           />
         </svg>
         <div className="flex gap-2">
-          <span className="text-gray-50 text-xl">دسته بندی ها</span>
+          <span className="text-gray-50 text-xl">پروفایل</span>
           <img
             src="https://fakeimg.pl/300/"
             alt="image"
             className="h-8 w-8 rounded-[50%]"
           />
         </div>
-      </div>
-    </>
-  );
+      </div></>
+  )
 }
 
-export default Header;
+export default Header
