@@ -21,7 +21,7 @@ function Header() {
           />
         </svg>
         <div className="flex gap-2">
-          <span className="text-gray-50 text-xl">پروفایل</span>
+          <span className="text-gray-50 text-xl">سبد خرید</span>
           <img
             src="https://fakeimg.pl/300/"
             alt="image"
