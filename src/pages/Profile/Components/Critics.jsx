@@ -1,8 +1,11 @@
 import React from 'react'
+import Inactive from '../../Components/Inactive'
 
 function Critics() {
   return (
-    <div>Critics</div>
+    <div>
+     <Inactive/>
+    </div>
   )
 }
 

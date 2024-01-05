@@ -1,6 +1,5 @@
 import React from "react";
-import Sections from "./Components/Sections";
-
+import { Outlet } from "react-router-dom";
 function Profile() {
   return (
     <>
@@ -30,6 +29,7 @@ function Profile() {
           />
         </div>
       </div>
+      <Outlet/>
     </>
   );
 }

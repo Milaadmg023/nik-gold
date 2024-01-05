@@ -27,8 +27,8 @@ function App() {
         <Route path="/category" element={<Category />} />
         <Route path="/loanpayment" element={<LoanPay />} />
         <Route path="/shopcard" element={<ShopCard />} />
-        <Route path="profile" element={<Profile />}>
-          <Route path="/profile" element={<Sections/>}/>
+        <Route path="/profile/*" element={<Profile />}>
+          <Route path="*" element={<Sections/>}/>
           <Route path="rules" element={<Rules />} />
           <Route path="coindeal" element={<CoinDeal />} />
           <Route path="golddeal" element={<GoldDeal />} />

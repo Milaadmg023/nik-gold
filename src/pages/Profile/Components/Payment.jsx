@@ -1,9 +1,19 @@
-import React from 'react'
+import React from "react";
 
 function Payment() {
   return (
-    <div>Payment</div>
-  )
+    <div dir="rtl" className="p-2">
+      <h1 className="text-xl font-bold">شرایط اقساط</h1>
+      <p className="text-lg">
+        جموعه طلا و سکه نیک سرشت از سال 1376 بافروش نقد و اقساط طلا در خدمت
+        همشهریان عزیز می باشد. فروش طلای اقساط به صورت زیر میباشد: <br /> یک سوم مبلغ
+        کل نقدا دریافت میگردد و مابقی در حداکثر 8 قسط قابل پرداخت میباشد. <br /> همچنین
+        مبلغ اقساط با توجه به نوسانات قیمت طلا ثابت بوده و با افزایش قیمت طلا
+        وجه اضافی دریافت نمی گردد. وبرای ضمانت اقساط طلا، به میزان بدهی طلا سکه
+        یا چک صیادی با ارایه رسید معتبر دریافت میشود.
+      </p>
+    </div>
+  );
 }
 
-export default Payment
+export default Payment;
