@@ -5,6 +5,9 @@ function Profile() {
   return (
     <>
     <Header/>
+    <section id='profile'>
+
+    </section>
     </>
   )
 }

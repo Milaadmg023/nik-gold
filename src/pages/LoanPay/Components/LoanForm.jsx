@@ -32,8 +32,11 @@ function LoanForm() {
         <label htmlFor="customer__payment">مبلغ قسط</label>
         <input type="text" id='customer__payment' name='customer__payment' className='border border-2 rounded h-10'/>
       </div>
-      <div id="code" className='flex flex-col mt-2'>
+      <div id="file" className='flex flex-col mt-2'>
         <button className='border border-2 rounded-md h-10 w-fit p-1 bg-gray-800 text-white text-sm'>انتخاب عکس فیش واریزی </button>
+      </div>
+      <div id="submit" className='flex flex-col mt-2'>
+        <button type='submit' className='mx-auto border border-2 rounded-md h-10 w-fit p-1 bg-green-800 text-white text-sm'>ثبت اطلاعات</button>
       </div>
      </form>
     </section>
