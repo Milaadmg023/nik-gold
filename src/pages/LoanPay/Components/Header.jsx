@@ -5,7 +5,7 @@ function Header() {
     <>
       <div
         id="call"
-        className="flex justify-between bg-yellow-600 items-center px-2 py-3"
+        className="flex justify-between bg-[#B7985B] items-center px-2 py-3"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -21,7 +21,7 @@ function Header() {
           />
         </svg>
         <div className="flex gap-2">
-          <span className="text-gray-50 text-xl">پرداخت اقساط</span>
+          <span className="text-gray-50 text-xl">دریافت اقساط</span>
           <img
             src="https://fakeimg.pl/300/"
             alt="image"

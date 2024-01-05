@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav className="flex justify-around bottom-0 fixed right-0 left-0 z-10 bg-gray-50 h-[10vh]">
+    <nav className="flex justify-around bottom-0 fixed right-0 left-0 z-10 bg-gray-50 h-[7.5vh] text-sm">
       <Link to={"/profile"}>
         <div className="flex flex-col cursor-pointer p-2 text-gray-500 hover:text-amber-300 transition-all">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="25"
-            height="25"
+            width="20"
+            height="20"
             fill="currentColor"
             className="bi bi-person-fill mx-auto"
             viewBox="0 0 16 16"
@@ -23,8 +23,8 @@ function Navbar() {
         <div className="flex flex-col cursor-pointer p-2 text-gray-500 hover:text-amber-300 transition-all">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="25"
-            height="25"
+            width="20"
+            height="20"
             fill="currentColor"
             className="bi bi-basket3-fill mx-auto"
             viewBox="0 0 16 16"
@@ -38,8 +38,8 @@ function Navbar() {
         <div className="flex flex-col cursor-pointer p-2 text-gray-500 hover:text-amber-300 transition-all">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="25"
-            height="25"
+            width="20"
+            height="20"
             fill="currentColor"
             className="bi bi-credit-card mx-auto"
             viewBox="0 0 16 16"
@@ -54,8 +54,8 @@ function Navbar() {
         <div className="flex flex-col cursor-pointer p-2 text-gray-500 hover:text-amber-300 transition-all">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="25"
-            height="25"
+            width="20"
+            height="20"
             fill="currentColor"
             className="bi bi-ui-checks-grid mx-auto"
             viewBox="0 0 16 16"
@@ -69,8 +69,8 @@ function Navbar() {
         <div className="flex flex-col cursor-pointer p-2 text-gray-500 hover:text-amber-300 transition-all">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="25"
-            height="25"
+            width="20"
+            height="20"
             fill="currentColor"
             className="bi bi-house mx-auto"
             viewBox="0 0 16 16"
