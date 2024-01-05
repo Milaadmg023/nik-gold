@@ -61,7 +61,7 @@ function Header() {
         </div>
         <div className="grid grid-cols-2 text-center gap-2 text-sm">
           <span>سکه نیم بانکی:16,200,000</span>
-          <span>سکه تمام بانکی 86: 30,270,000</span>
+          <span>سکه تمام بانکی: 30,270,000</span>
           <span>قیمت روز طلا: 2,533,000</span>
           <span>سکه ربع بانکی: 10,900,000</span>
         </div>
