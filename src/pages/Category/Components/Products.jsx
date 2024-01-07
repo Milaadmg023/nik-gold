@@ -20,7 +20,7 @@ function Products() {
       </div>
       <div
         id="filters"
-        className="flex flex-col items-center bg-[#B7985B] w-[10%] lg:w-[6%] overflow-y-scroll overflow-x-hidden p-1 rounded-l-xl h-[83vh]"
+        className="flex flex-col items-center bg-[#B7985B] w-[30%]  lg:w-[6%] overflow-y-scroll overflow-x-hidden p-1 rounded-l-xl h-[83vh]"
       >
         <div id="filter__container" className="text-center">
           <div className="rouded-full bg-white rounded-full p-1 w-fit">

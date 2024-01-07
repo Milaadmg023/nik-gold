@@ -1,16 +1,16 @@
-import React, { useRef, useState } from "react";
-// Import Swiper React components
+import React from "react";
+
 import { Swiper, SwiperSlide } from "swiper/react";
 
-// Import Swiper styles
+
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 
 import "./Home.css";
 
-// import required modules
-import { Autoplay, FreeMode, Pagination } from "swiper/modules";
+
+import { Autoplay, FreeMode } from "swiper/modules";
 
 function Populars() {
   let width=window.innerWidth

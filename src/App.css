@@ -1,15 +1,9 @@
 @font-face {
-  font-family: "7host";
-  font-style: normal;
-  font-weight: 400;
-  src: url("fonts/7host.eot");
-  src: url("fonts/7host.eot?#iefix") format("embedded-opentype"),
-    url("fonts/7host.woff2") format("woff2"),
-    url("fonts/7host.woff") format("woff"),
-    url("fonts/7host.ttf") format("truetype");
+  font-family: "yekan";
+  src: url(./font/Yekan.ttf)
 }
 body {
-  font-family: 7host, Tahoma;
+  font-family: yekan, Tahoma;
 }
 
 #offers {

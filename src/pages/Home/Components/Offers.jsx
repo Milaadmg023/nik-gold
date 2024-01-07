@@ -12,7 +12,8 @@ import "./Home.css";
 // import required modules
 import { Autoplay, FreeMode, Pagination } from "swiper/modules";
 
-function Offers() {
+function Offers(props) {
+  console.log(props.products);
   let width=window.innerWidth
   let slidersNum = 2
   if (width >= 1024) {
