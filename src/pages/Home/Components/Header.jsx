@@ -1,9 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Header() {
-  const filterdProducts = (e)=>{
+  const filterdProducts = (e) => {
     console.log(e.target.id);
-  }
+    // filtering data
+    filterdData = [];
+  };
   return (
     <>
       <div
@@ -104,66 +107,99 @@ function Header() {
         </div>
         <span className="text-orange-300 text-xl">دسترسی سریع</span>
       </div>
-      <div id="category" className="flex justify-around text-gray-700">
-        <div  className="text-center cursor-pointer" onClick={filterdProducts}>
-          <img
-            src="https://app.goldshiraz.com/upload/category/0eaf02e673c5d005393cd83e32bd0f1f.png"
-            alt="category image"
-            className="w-12 h-12 rounded-full"
-            id="chain"
-          />
-          <span>
-            زنجیر
-          </span>
-        </div>
-        <div  className="text-center cursor-pointer" onClick={filterdProducts}>
-          <img
-            src="https://app.goldshiraz.com/upload/category/acafe85d082cc5fd7269429803576dda.png"
-            alt="category image"
-            className="w-12 h-12 rounded-full"
-            id="coin"
-          />
-          <span>
-            سکه
-          </span>
-        </div>
-        <div  className="text-center cursor-pointer" onClick={filterdProducts}>
-          <img
-            src="https://app.goldshiraz.com/upload/category/b78639583d37bec901b9ced59355b475.png"
-            alt="category image"
-            className="w-12 h-12 rounded-full"
-            id="medal"
-          />
-          <span>
-            مدال
-          </span>
-        </div>
-        <div  className="text-center cursor-pointer" onClick={filterdProducts}>
-          <img
-            src="https://app.goldshiraz.com/upload/category/60a7412749b558bf40e4a2f5b976dd5f.png"
-            alt="category image"
-            className="w-12 h-12 rounded-full"
-            id="men"
-          />
-          <span>
-            مردانه
-          </span>
-        </div>
-        <div  className="text-center cursor-pointer" onClick={filterdProducts}>
-          <img
-            src="https://app.goldshiraz.com/upload/category/02d4ebf334c0e4097d2e9259a9fc25e1.png"
-            alt="category image"
-            className="w-12 h-12 rounded-full"
-            id="spacial"
-          />
-          <span>
-            فروش ویژه
-          </span>
-        </div>
+      <div id="category" onClick={filterdProducts}>
+        <Link to={"/products"} className="flex justify-around text-gray-700">
+          <div className="text-center cursor-pointer">
+            <img
+              src="https://app.goldshiraz.com/upload/category/0eaf02e673c5d005393cd83e32bd0f1f.png"
+              alt="category image"
+              className="w-12 h-12 rounded-full"
+              id="chain"
+            />
+            <span>زنجیر</span>
+          </div>
+          <div className="text-center cursor-pointer">
+            <img
+              src="https://app.goldshiraz.com/upload/category/acafe85d082cc5fd7269429803576dda.png"
+              alt="category image"
+              className="w-12 h-12 rounded-full"
+              id="coin"
+            />
+            <span>سکه</span>
+          </div>
+          <div className="text-center cursor-pointer">
+            <img
+              src="https://app.goldshiraz.com/upload/category/b78639583d37bec901b9ced59355b475.png"
+              alt="category image"
+              className="w-12 h-12 rounded-full"
+              id="medal"
+            />
+            <span>مدال</span>
+          </div>
+          <div className="text-center cursor-pointer">
+            <img
+              src="https://app.goldshiraz.com/upload/category/60a7412749b558bf40e4a2f5b976dd5f.png"
+              alt="category image"
+              className="w-12 h-12 rounded-full"
+              id="men"
+            />
+            <span>مردانه</span>
+          </div>
+          <div className="text-center cursor-pointer">
+            <img
+              src="https://app.goldshiraz.com/upload/category/02d4ebf334c0e4097d2e9259a9fc25e1.png"
+              alt="category image"
+              className="w-12 h-12 rounded-full"
+              id="spacial"
+            />
+            <span>فروش ویژه</span>
+          </div>
+        </Link>
       </div>
-      <div id="ticker" className="">
-        <div className=""></div>
-      </div>
+      <section>
+        <div className="newsticker">
+          <div className="ticker2">
+            <p>
+              <li>
+                <p>
+                  ، قيمت هاي فوق بر اساس قيمت هاي اعلامي اتحاديه طلاي شيراز
+                  ميباشد.. !!
+                </p>
+              </li>
+              <li>
+                <p>
+                  !!فروش و ارسال طلا ويژه هموطنان خارج از كشور به عزيزانشان
+                  درايران و پرداخت از طريق PayPal ، Zell و Venmo, Usdt !!
+                </p>
+              </li>
+              <li>
+                <p>
+                  !! مجموعه طلا و سكه نیک سرشت با ٨ شعبه وبيش از ٣٠ سال سابقه
+                  ضامن خريد امن شماست.!!
+                </p>
+              </li>
+              <li>
+                <p>
+                  ! افتتاح اولين و تنها نمايندگي محصولات طلاي روبي در شيراز
+                  معالي آباد نبش بهاران مركز خريد آرين پلاك ١٣
+                </p>
+              </li>
+              <li>
+                <p>
+                  با بالاترين قيمت طلا و سكه شما را با فاكتور طلاي نيك سرشت
+                  خريداريم.
+                </p>
+              </li>
+              <li>
+                <p>واريز و انتقال آني وجه با اولويت فروشنده !!</p>
+              </li>
+              <li>
+                <p>قرعه كشي بزرگ شب يلدا در شعب طلاي نيك سرشت ??</p>
+              </li>
+            </p>
+          </div>
+        </div>
+      </section>
     </>
   );
 }

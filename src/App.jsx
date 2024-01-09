@@ -17,6 +17,8 @@ import Payment from "./pages/Profile/Components/Payment";
 import Rules from "./pages/Profile/Components/Rules";
 import Warranty from "./pages/Profile/Components/Warranty";
 import Favorties from "./pages/Profile/Components/Favorties";
+import Product from "./pages/Components/Product";
+import Products from "./pages/Components/Products";
 
 function App() {
   return (
@@ -40,6 +42,8 @@ function App() {
           <Route path="offers" element={<Critics />} />
           <Route path="questions" element={<FaQ />} />
         </Route>
+        <Route path="/product" element={<Product/>}/>
+        <Route path="/products" element={<Products/>}/>
       </Routes>
     </Router>
   );
